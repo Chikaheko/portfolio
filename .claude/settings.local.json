@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create *)",
+      "Bash(npm run *)",
+      "Bash(node -e \"const si = require\\('./node_modules/react-icons/si/index.js'\\); const keys = Object.keys\\(si\\); ['SiCss3','SiHtml5','SiCapcut','SiDavinciresolve','SiAdobeaftereffects','SiAdobepremierepro','SiVercel','SiMysql','SiPhp','SiReact','SiJavascript','SiGithub','SiVisualstudiocode','SiOpenai'].forEach\\(k => console.log\\(k, keys.includes\\(k\\)\\)\\)\")",
+      "Bash(node -e \"import\\('./node_modules/react-icons/si/index.mjs'\\).then\\(si => { const keys = Object.keys\\(si\\); ['SiCss3','SiHtml5','SiCapcut','SiDavinciresolve','SiAdobeaftereffects','SiAdobepremierepro','SiVercel','SiMysql','SiPhp','SiReact','SiJavascript','SiGithub','SiVisualstudiocode','SiOpenai'].forEach\\(k => console.log\\(k, keys.includes\\(k\\)\\)\\) }\\)\")",
+      "Bash(node -e \"import\\('./node_modules/react-icons/si/index.mjs'\\).then\\(si => { const keys = Object.keys\\(si\\).filter\\(k => k.toLowerCase\\(\\).includes\\('css'\\) || k.toLowerCase\\(\\).includes\\('vscode'\\) || k.toLowerCase\\(\\).includes\\('adobe'\\) || k.toLowerCase\\(\\).includes\\('capcut'\\) || k.toLowerCase\\(\\).includes\\('visual'\\)\\); console.log\\(keys.join\\('\\\\n'\\)\\) }\\)\")",
+      "Bash(node -e \"import\\('./node_modules/react-icons/fa/index.mjs'\\).then\\(m => { const keys = Object.keys\\(m\\).filter\\(k => k.toLowerCase\\(\\).includes\\('code'\\) || k.toLowerCase\\(\\).includes\\('film'\\) || k.toLowerCase\\(\\).includes\\('video'\\)\\); console.log\\(keys.slice\\(0,20\\).join\\('\\\\n'\\)\\) }\\).catch\\(e => console.error\\(e.message\\)\\)\")",
+      "Bash(node -e \"import\\('./node_modules/react-icons/vsc/index.mjs'\\).then\\(m => { const keys = Object.keys\\(m\\).filter\\(k => k.toLowerCase\\(\\).includes\\('code'\\)\\); console.log\\(keys.slice\\(0,10\\).join\\('\\\\n'\\)\\) }\\).catch\\(e => console.error\\(e.message\\)\\)\")",
+      "Bash(curl -s http://localhost:5173)"
+    ]
+  }
+}

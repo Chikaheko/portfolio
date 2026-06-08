@@ -1,19 +1,11 @@
 import { useRef, useState } from 'react'
 import { motion, useInView } from 'framer-motion'
-import { Send, Mail, Github, Linkedin, User, MessageSquare, Zap } from 'lucide-react'
+import { Send, Mail, Github, Linkedin, User, MessageSquare } from 'lucide-react'
 
 export default function Contact() {
   const ref = useRef(null)
   const inView = useInView(ref, { once: true, margin: '-80px' })
   const [form, setForm] = useState({ name: '', email: '', subject: '', message: '' })
-  const [sent, setSent] = useState(false)
-
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    setSent(true)
-    setTimeout(() => setSent(false), 4000)
-    setForm({ name: '', email: '', subject: '', message: '' })
-  }
 
   const socials = [
     { icon: <Mail size={18} />, label: 'Email', value: 'jpeterlc@gmail.com', href: 'mailto:jpeterlc@gmail.com', color: 'text-cyan-400' },
@@ -64,20 +56,13 @@ export default function Contact() {
             animate={inView ? { opacity: 1, x: 0 } : {}}
             transition={{ delay: 0.2, duration: 0.6 }}
           >
-            {sent ? (
-              <motion.div
-                className="flex flex-col items-center justify-center h-64 gap-4"
-                initial={{ opacity: 0, scale: 0.8 }}
-                animate={{ opacity: 1, scale: 1 }}
-              >
-                <div className="w-16 h-16 rounded-full bg-green-500/20 border border-green-500/30 flex items-center justify-center">
-                  <Zap size={28} className="text-green-400" />
-                </div>
-                <p className="text-white font-bold text-lg">Message Sent!</p>
-                <p className="text-slate-400 text-sm text-center">I&rsquo;ll get back to you as soon as possible.</p>
-              </motion.div>
-            ) : (
-              <form onSubmit={handleSubmit} className="space-y-4">
+            <form
+              action="https://formsubmit.co/jpeterlc@gmail.com"
+              method="POST"
+              className="space-y-4"
+            >
+              <input type="hidden" name="_subject" value="New portfolio contact message" />
+              <input type="hidden" name="_captcha" value="false" />
                 <div className="grid sm:grid-cols-2 gap-4">
                   {/* Name */}
                   <div className="relative">
@@ -86,6 +71,7 @@ export default function Contact() {
                       <User size={14} className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-500" />
                       <input
                         type="text"
+                        name="name"
                         required
                         value={form.name}
                         onChange={(e) => setForm({ ...form, name: e.target.value })}
@@ -102,6 +88,7 @@ export default function Contact() {
                       <Mail size={14} className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-500" />
                       <input
                         type="email"
+                        name="email"
                         required
                         value={form.email}
                         onChange={(e) => setForm({ ...form, email: e.target.value })}
@@ -117,6 +104,7 @@ export default function Contact() {
                   <label className="text-xs font-mono text-slate-500 mb-1.5 block uppercase tracking-wider">Subject</label>
                   <input
                     type="text"
+                    name="subject"
                     value={form.subject}
                     onChange={(e) => setForm({ ...form, subject: e.target.value })}
                     placeholder="Project inquiry, collaboration..."
@@ -130,6 +118,7 @@ export default function Contact() {
                   <div className="relative">
                     <MessageSquare size={14} className="absolute left-3 top-3 text-slate-500" />
                     <textarea
+                      name="message"
                       required
                       value={form.message}
                       onChange={(e) => setForm({ ...form, message: e.target.value })}
@@ -150,7 +139,6 @@ export default function Contact() {
                   Let&rsquo;s Build Something Useful
                 </motion.button>
               </form>
-            )}
           </motion.div>
 
           {/* Right — info */}

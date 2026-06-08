@@ -113,7 +113,7 @@ export default function LoadingScreen({ onComplete }) {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.7 }}
             >
-              Full-Stack Web Developer
+              Full-Stack Software Engineer
             </motion.p>
           </motion.div>
 

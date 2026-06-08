@@ -30,7 +30,7 @@ export default function Footer() {
             </div>
             <div>
               <p className="font-bold text-white font-mono">Peter<span className="text-cyan-400">.</span>dev</p>
-              <p className="text-xs text-slate-500">Full-Stack Web Developer</p>
+              <p className="text-xs text-slate-500">Full-Stack Software Engineer</p>
             </div>
           </div>
 
@@ -73,7 +73,7 @@ export default function Footer() {
         {/* Bottom */}
         <div className="flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-slate-600">
           <p>
-            <span className="text-slate-400 font-semibold">Peter</span> | Full-Stack Web Developer
+            <span className="text-slate-400 font-semibold">Peter</span> | Full-Stack Software Engineer
             <span className="mx-2 text-slate-700">—</span>
             City Government of Davao
           </p>

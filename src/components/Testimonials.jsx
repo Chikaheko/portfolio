@@ -6,7 +6,7 @@ const testimonials = [
   {
     quote: 'Peter consistently shows strong work ethic, technical initiative, and analytical thinking in development work. He is quick to understand operational needs, finds practical ways to improve systems, and stays ahead in applying coding and technical solutions that make information easier to manage and use.',
     name: 'Hyanen J.',
-    role: 'Project Manager',
+    role: 'Project Manager - Happy to Help',
     image: '/Hyanen.png',
     initials: 'HJ',
     color: 'from-cyan-500 to-blue-600',
@@ -14,7 +14,7 @@ const testimonials = [
   {
     quote: 'Working with Peter on the rally bracket system was smooth and professional. He was responsive, patient with revisions, and focused on making the system practical for actual tournament use, from match encoding to standings updates.',
     name: 'Bevelie M.',
-    role: 'Assistant Chief, Assessment Division',
+    role: 'Assistant Chief - Bureau of Internal Revenue',
     image: '/Beverlie.jpg',
     initials: 'BM',
     color: 'from-violet-500 to-purple-600',

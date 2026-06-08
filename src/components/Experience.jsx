@@ -70,7 +70,7 @@ export default function Experience() {
                     <Building2 size={22} className="text-cyan-400" />
                   </div>
                   <div>
-                    <h3 className="text-lg font-bold text-white">Junior Full-Stack Web Developer</h3>
+                    <h3 className="text-lg font-bold text-white">Full-Stack Software Engineer</h3>
                     <p className="text-cyan-400 font-mono text-sm">Project DocTrack — City Government of Davao</p>
                     <div className="flex items-center gap-1.5 mt-1.5">
                       <Calendar size={12} className="text-slate-500" />

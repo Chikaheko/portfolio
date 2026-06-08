@@ -5,7 +5,7 @@ import ProjectModal from './ProjectModal'
 
 const projects = [
   {
-    title: 'BME — Budget Management Environment',
+    title: 'BME - Budget Management Environment',
     short: 'Citywide budgeting and procurement platform used by Davao City offices for annual budgets, reports, summaries, printables, and transparent digital workflows.',
     long: 'A citywide budgeting and procurement system deployed across Davao City government offices. BME handles annual budget planning, fund tracking, procurement workflows, automated report generation, printable summaries, and provides a transparent digital trail for all budget-related activity. Built to handle multi-department access with role-based permissions.',
     tags: ['PHP', 'JavaScript', 'MySQL', 'Reporting', 'Government'],
@@ -25,7 +25,7 @@ const projects = [
     images: ['/OVP.PNG', '/OVP2.PNG', '/OVP3.PNG', '/OVP4.PNG'],
   },
   {
-    title: 'CIMS — City Infrastructure Monitoring',
+    title: 'CIMS - City Infrastructure Monitoring',
     short: 'A complex infrastructure management system with 10+ modules: map tracking, project progress, coordinate pinning, boundary drawing, report generation, graphs, and engineer profiles.',
     long: 'One of the most complex systems in the portfolio — CIMS gives the City Government of Davao a full digital view of infrastructure projects across the city. Features include interactive map tracking with coordinate pinning and boundary drawing, project timeline and progress monitoring, slippage detection, engineer and contractor profiles, dynamic report generation, data graphs, and over 10 integrated modules. Used daily by city engineers and administrators.',
     tags: ['PHP', 'JavaScript', 'Maps', 'MySQL', 'GIS', 'Dashboards'],
@@ -45,7 +45,7 @@ const projects = [
     images: ['/RBS.png', '/RBS2.png', '/RBS3.png', '/RBS4.png', '/RBS5.png'],
   },
   {
-    title: 'PET — Parking Efficiency Tool',
+    title: 'PET - Parking Efficiency Tool',
     short: 'A parking ticket encoding and tracking system for local transport operations — personal data records, issued ticket monitoring, and map-based ticket assignments.',
     long: 'A digital parking management system for local transport operations. Handles ticket encoding, personal data records for violators, ticket status monitoring, and map-based assignment of ticket locations. Replaces a fully manual paper-based process with a searchable, printable digital system.',
     tags: ['PHP', 'MySQL', 'Maps', 'Transport', 'Records'],

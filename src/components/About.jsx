@@ -54,7 +54,7 @@ export default function About() {
 
             <FadeInWhenVisible delay={0.2}>
               <p className="text-slate-400 leading-relaxed mb-4">
-                I&rsquo;m <span className="text-white font-semibold">Peter</span>, a Full-Stack Web Developer with{' '}
+                I&rsquo;m <span className="text-white font-semibold">Peter</span>, a Full-Stack Software Engineer with{' '}
                 <span className="text-cyan-400 font-semibold">3 years of hands-on experience</span> building complex
                 digital systems for the <span className="text-white">City Government of Davao</span>. My work spans
                 budgeting platforms, infrastructure monitoring tools, real-time dashboards, reporting systems, and

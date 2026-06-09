@@ -89,11 +89,15 @@ export default function LoadingScreen({ onComplete }) {
                   style={{ transform: 'rotate(45deg)' }} />
               </motion.div>
               <motion.div
-                className="absolute inset-3 rounded-full bg-gradient-to-br from-cyan-500/20 to-violet-600/20 flex items-center justify-center text-2xl font-bold font-mono text-white"
+                className="absolute inset-3 rounded-full overflow-hidden bg-gradient-to-br from-cyan-500/20 to-violet-600/20"
                 animate={{ opacity: [0.7, 1, 0.7] }}
                 transition={{ duration: 2, repeat: Infinity }}
               >
-                P
+                <img
+                  src="/Start.png"
+                  alt="Peter"
+                  className="block w-full h-full object-cover"
+                />
               </motion.div>
             </div>
 

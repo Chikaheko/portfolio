@@ -38,7 +38,7 @@ const projects = [
     title: 'Rally Bracket Tournament HQ',
     short: 'An interactive tournament bracket system for racket sports — recently used for the Region XI Bureau of Internal Revenue 2026 pickleball qualification event.',
     long: 'A clean and interactive tournament bracket generator built for competitive events. Handles bracket generation, match result encoding, and real-time standings updates. Recently deployed for the Region XI Bureau of Internal Revenue 2026 Pickleball Qualification Tournament and the Mindanao Inter-School Law Tournament.',
-    tags: ['JavaScript', 'React', 'Tournament', 'Sports'],
+    tags: ['TypeScript / TSX', 'React', 'Node.js / Express', 'JavaScript', 'Tournament', 'Sports'],
     accent: 'from-green-500 to-emerald-600',
     glow: 'rgba(16,185,129,0.2)',
     badge: 'BIR Region XI 2026',

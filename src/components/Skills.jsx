@@ -1,7 +1,7 @@
 import { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
 import {
-  SiPhp, SiJavascript, SiReact, SiHtml5, SiCss, SiMysql,
+  SiPhp, SiJavascript, SiReact, SiHtml5, SiCss, SiMysql, SiNodedotjs,
   SiGithub, SiVercel, SiDavinciresolve, SiOpenai,
 } from 'react-icons/si'
 import { FaCode } from 'react-icons/fa'
@@ -17,6 +17,7 @@ const categories = [
     skills: [
       { name: 'PHP', icon: <SiPhp size={24} />, color: 'text-indigo-400' },
       { name: 'JavaScript', icon: <SiJavascript size={24} />, color: 'text-yellow-400' },
+      { name: 'Node.js', icon: <SiNodedotjs size={24} />, color: 'text-green-500' },
       { name: 'React.js', icon: <SiReact size={24} />, color: 'text-cyan-400' },
       { name: 'HTML5', icon: <SiHtml5 size={24} />, color: 'text-orange-500' },
       { name: 'CSS3', icon: <SiCss size={24} />, color: 'text-blue-400' },

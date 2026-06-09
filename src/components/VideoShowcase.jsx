@@ -23,15 +23,15 @@ const videos = [
     title: 'AI Shorts Story 1',
     category: 'Short-Form',
     duration: 'Shorts',
-    url: 'https://youtube.com/shorts/Ys_bML46I44?feature=share',
-    thumbnail: 'https://img.youtube.com/vi/Ys_bML46I44/hqdefault.jpg',
+    url: 'https://youtube.com/shorts/9J9ZgD_4rwc?feature=share',
+    thumbnail: 'https://img.youtube.com/vi/9J9ZgD_4rwc/hqdefault.jpg',
   },
   {
     title: 'AI Shorts Story 2',
     category: 'Short-Form',
     duration: 'Shorts',
-    url: 'https://youtube.com/shorts/6Nv0aTPamts',
-    thumbnail: 'https://img.youtube.com/vi/6Nv0aTPamts/hqdefault.jpg',
+    url: 'https://youtube.com/shorts/1sJjGI_ZinQ?feature=share',
+    thumbnail: 'https://img.youtube.com/vi/1sJjGI_ZinQ/hqdefault.jpg',
   },
   {
     title: 'AI Shorts Story 3',
@@ -41,11 +41,11 @@ const videos = [
     thumbnail: 'https://img.youtube.com/vi/eLCom5gZdM4/hqdefault.jpg',
   },
   {
-    title: 'AI Shorts Story 4',
+    title: 'Instagram Shorts',
     category: 'Short-Form',
-    duration: 'Shorts',
-    url: 'https://youtube.com/shorts/9J9ZgD_4rwc?feature=share',
-    thumbnail: 'https://img.youtube.com/vi/9J9ZgD_4rwc/hqdefault.jpg',
+    duration: 'Instagram Story',
+    url: 'https://youtube.com/shorts/fe7TkcBfC70?feature=share',
+    thumbnail: 'https://img.youtube.com/vi/fe7TkcBfC70/hqdefault.jpg',
   },
 ]
 
@@ -141,7 +141,7 @@ export default function VideoShowcase() {
             transition={{ delay: 0.1 }}
           >
             Creative{' '}
-            <span className="text-gradient">Portfolio</span>
+            <span className="text-gradient">Video Portfolio</span>
           </motion.h2>
           <motion.p
             className="text-slate-500 mb-8 max-w-xl"
@@ -149,7 +149,7 @@ export default function VideoShowcase() {
             animate={titleInView ? { opacity: 1, y: 0 } : {}}
             transition={{ delay: 0.2 }}
           >
-            Real estate property videos, AI-generated content, and short-form edits for YouTube Shorts, Instagram Stories, and TikTok-style formats.
+            Real estate property videos, AI-generated content, and short-form edits for YouTube Shorts and Instagram Stories.
           </motion.p>
         </div>
 

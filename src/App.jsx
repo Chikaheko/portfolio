@@ -10,12 +10,13 @@ import Skills from './components/Skills'
 import Experience from './components/Experience'
 import Projects from './components/Projects'
 import VideoShowcase from './components/VideoShowcase'
+import VisualDesignShowcase from './components/VisualDesignShowcase'
 import ApiDashboard from './components/ApiDashboard'
 import Testimonials from './components/Testimonials'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
-const sections = ['hero', 'about', 'skills', 'experience', 'projects', 'videos', 'dashboard', 'testimonials', 'contact']
+const sections = ['hero', 'about', 'skills', 'experience', 'projects', 'videos', 'visual-design', 'dashboard', 'testimonials', 'contact']
 
 export default function App() {
   const [loading, setLoading] = useState(true)
@@ -68,6 +69,7 @@ export default function App() {
             <Experience />
             <Projects />
             <VideoShowcase />
+            <VisualDesignShowcase />
             <ApiDashboard />
             <Testimonials />
             <Contact />

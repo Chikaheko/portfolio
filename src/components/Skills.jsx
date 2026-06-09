@@ -2,7 +2,7 @@ import { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
 import {
   SiPhp, SiJavascript, SiReact, SiHtml5, SiCss, SiMysql, SiNodedotjs,
-  SiGithub, SiVercel, SiDavinciresolve, SiOpenai,
+  SiGithub, SiVercel, SiDavinciresolve, SiOpenai, SiCanva,
 } from 'react-icons/si'
 import { FaCode } from 'react-icons/fa'
 import { VscCode } from 'react-icons/vsc'
@@ -51,6 +51,8 @@ const categories = [
       { name: 'After Effects', icon: <FaCode size={24} />, color: 'text-indigo-400' },
       { name: 'DaVinci Resolve', icon: <SiDavinciresolve size={24} />, color: 'text-yellow-400' },
       { name: 'CapCut', icon: <FaCode size={24} />, color: 'text-white' },
+      { name: 'Canva', icon: <SiCanva size={24} />, color: 'text-cyan-400' },
+      { name: 'Adobe Photoshop', icon: <FaCode size={24} />, color: 'text-blue-400' },
       { name: 'AI Video Tools', icon: <SiOpenai size={24} />, color: 'text-pink-400' },
     ],
   },

@@ -56,7 +56,7 @@ export default function Testimonials() {
           animate={inView ? { opacity: 1 } : {}}
         >
           <div className="h-px w-8 bg-gradient-to-r from-cyan-500 to-transparent" />
-          <span className="text-xs font-mono text-cyan-400 uppercase tracking-widest">07 / Trust</span>
+          <span className="text-xs font-mono text-cyan-400 uppercase tracking-widest">08 / Trust</span>
         </motion.div>
 
         <motion.h2

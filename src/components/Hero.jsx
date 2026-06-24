@@ -138,11 +138,11 @@ export default function Hero() {
               custom={2}
               className="text-slate-400 text-base sm:text-lg leading-relaxed max-w-xl mx-auto lg:mx-0 mb-8"
             >
-              I&rsquo;m <span className="text-white font-semibold">Peter</span>, a Full-Stack Software Engineer
-              crafting secure, scalable, and user-focused web systems — from{' '}
+              I&rsquo;m <span className="text-white font-semibold">Peter</span>, a Full-Stack Software Engineer and
+              GoHighLevel Digital Marketing Specialist crafting secure, scalable, and user-focused web systems — from{' '}
               <span className="text-cyan-400">government operations</span> and{' '}
               <span className="text-violet-400">infrastructure tracking</span> to{' '}
-              <span className="text-blue-400">digital transformation</span> initiatives.
+              <span className="text-blue-400">websites, funnels, and creative content</span>.
             </motion.p>
 
             {/* CTAs */}

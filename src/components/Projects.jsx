@@ -5,6 +5,16 @@ import ProjectModal from './ProjectModal'
 
 const projects = [
   {
+    title: 'Happy to Help - IT Consultations',
+    short: 'A complete GoHighLevel website for an IT consultation brand with bookings, funnels, calendars, forms, responsive mobile views, animations, and custom CSS.',
+    long: 'Technology should help your business grow, not slow it down. Happy to Help - IT Consultations is a full GoHighLevel website build for friendly and practical IT support services. The site presents troubleshooting, cloud setup, cybersecurity, data protection, and operations support in a clear customer journey, with integrated bookings, funnels, calendars, lead forms, responsive mobile layouts, page animations, and custom CSS refinements.',
+    tags: ['GoHighLevel', 'Website Builder', 'Funnels', 'Bookings', 'Forms', 'Custom CSS'],
+    accent: 'from-cyan-400 to-emerald-500',
+    glow: 'rgba(45,212,191,0.22)',
+    badge: 'GHL Website',
+    images: ['/GHL1.PNG', '/GHL2.PNG', '/GHL3.PNG', '/GHL4.PNG', '/GHL5.PNG', '/GHL6.PNG', '/GHL7.PNG', '/GHL8.PNG'],
+  },
+  {
     title: 'BME - Budget Management Environment',
     short: 'Citywide budgeting and procurement platform used by Davao City offices for annual budgets, reports, summaries, printables, and transparent digital workflows.',
     long: 'A citywide budgeting and procurement system deployed across Davao City government offices. BME handles annual budget planning, fund tracking, procurement workflows, automated report generation, printable summaries, and provides a transparent digital trail for all budget-related activity. Built to handle multi-department access with role-based permissions.',

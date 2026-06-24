@@ -36,6 +36,7 @@ const categories = [
       { name: 'VS Code', icon: <VscCode size={24} />, color: 'text-blue-500' },
       { name: 'GitHub', icon: <SiGithub size={24} />, color: 'text-white' },
       { name: 'Vercel', icon: <SiVercel size={24} />, color: 'text-white' },
+      { name: 'GoHighLevel', icon: <LayoutDashboard size={24} />, color: 'text-cyan-400' },
       { name: 'SQL Workbench', icon: <Database size={24} />, color: 'text-orange-400' },
       { name: 'ChatGPT', icon: <SiOpenai size={24} />, color: 'text-green-400' },
       { name: 'Claude AI', icon: <Code2 size={24} />, color: 'text-violet-400' },

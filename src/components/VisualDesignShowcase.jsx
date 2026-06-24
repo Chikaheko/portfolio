@@ -4,6 +4,22 @@ import { ChevronLeft, ChevronRight, Images, X } from 'lucide-react'
 
 const graphicDesigns = [
   {
+    title: 'Social Media Postings & Advertisements',
+    type: 'Social Media Design',
+    description: 'Promotional social media creatives and advertisement layouts designed for clear messaging and visual impact.',
+    images: [
+      '/graphic/FB1.png',
+      '/graphic/FB2.png',
+      '/graphic/FB3.png',
+      '/graphic/FB4.png',
+      '/graphic/FB5.png',
+      '/graphic/FB6.png',
+      '/graphic/FB7.png',
+      '/graphic/FB8.png',
+      '/graphic/FB9.png',
+    ],
+  },
+  {
     title: 'Real Estate Website Design',
     type: 'Website Design',
     description: 'Responsive real estate website concepts focused on clear property presentation and lead generation.',

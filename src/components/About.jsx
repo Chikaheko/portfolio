@@ -54,11 +54,12 @@ export default function About() {
 
             <FadeInWhenVisible delay={0.2}>
               <p className="text-slate-400 leading-relaxed mb-4">
-                I&rsquo;m <span className="text-white font-semibold">Peter</span>, a Full-Stack Software Engineer with{' '}
+                I&rsquo;m <span className="text-white font-semibold">Peter</span>, a Full-Stack Software Engineer and{' '}
+                <span className="text-emerald-400 font-semibold">GoHighLevel Digital Marketing Specialist</span> with{' '}
                 <span className="text-cyan-400 font-semibold">3 years of hands-on experience</span> building complex
                 digital systems for the <span className="text-white">City Government of Davao</span>. My work spans
                 budgeting platforms, infrastructure monitoring tools, real-time dashboards, reporting systems, and
-                secure backend architecture.
+                secure backend architecture, plus conversion-focused websites, funnels, bookings, and lead forms.
               </p>
             </FadeInWhenVisible>
 
@@ -69,8 +70,8 @@ export default function About() {
                 <span className="text-blue-400 font-mono text-sm">React.js</span>, and{' '}
                 <span className="text-violet-400 font-mono text-sm">SQL</span> to build practical solutions
                 that improve transparency, automate workflows, and handle large-scale government data.
-                Beyond development, I bring creative and operational depth through video editing, AI content
-                creation, and digital operations.
+                Beyond development, I bring creative and operational depth through website building, image and video
+                editing, AI content creation, and digital operations.
               </p>
             </FadeInWhenVisible>
 

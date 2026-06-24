@@ -58,8 +58,52 @@ export default function Experience() {
         </div>
 
         <div className="space-y-8">
+          <TimelineItem delay={0.05}>
+            <div className="glass rounded-2xl p-6 sm:p-8 border border-white/5 relative overflow-hidden">
+              <div className="absolute top-0 left-0 w-1 h-full bg-gradient-to-b from-emerald-500 to-cyan-600 rounded-l-2xl" />
+
+              <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 mb-4">
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-emerald-500/20 to-cyan-600/20 flex items-center justify-center flex-shrink-0">
+                    <Building2 size={22} className="text-emerald-400" />
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-bold text-white">GoHighLevel Digital Marketing Specialist</h3>
+                    <p className="text-emerald-400 font-mono text-sm">Part-time | Funnels, Websites &amp; Automation</p>
+                    <div className="flex items-center gap-1.5 mt-1.5">
+                      <Calendar size={12} className="text-slate-500" />
+                      <span className="text-xs text-slate-500 font-mono">2024 - Present</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="flex items-center gap-2 self-start sm:self-auto">
+                  <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
+                  <span className="text-xs font-mono text-green-400 bg-green-400/10 px-2 py-1 rounded-full">Active</span>
+                </div>
+              </div>
+
+              <p className="text-slate-400 text-sm leading-relaxed mb-4">
+                Built polished GoHighLevel websites, conversion-focused funnels, calendars, booking flows, lead forms,
+                automations, and custom CSS improvements that help service-based businesses capture leads and turn
+                interest into booked consultations.
+              </p>
+
+              <div className="flex flex-wrap gap-2">
+                {['GoHighLevel', 'Funnels', 'Bookings', 'Automations', 'Lead Forms', 'Custom CSS'].map((tag) => (
+                  <span
+                    key={tag}
+                    className="text-[11px] font-mono text-emerald-400 bg-emerald-500/10 border border-emerald-500/20 px-2.5 py-1 rounded-full"
+                  >
+                    {tag}
+                  </span>
+                ))}
+              </div>
+            </div>
+          </TimelineItem>
+
           {/* Primary role */}
-          <TimelineItem delay={0.1}>
+          <TimelineItem delay={0.15}>
             <div className="glass-strong rounded-2xl p-6 sm:p-8 border border-cyan-500/15 relative overflow-hidden">
               {/* Glow accent */}
               <div className="absolute top-0 left-0 w-1 h-full bg-gradient-to-b from-cyan-500 to-violet-600 rounded-l-2xl" />
@@ -74,15 +118,11 @@ export default function Experience() {
                     <p className="text-cyan-400 font-mono text-sm">Project DocTrack — City Government of Davao</p>
                     <div className="flex items-center gap-1.5 mt-1.5">
                       <Calendar size={12} className="text-slate-500" />
-                      <span className="text-xs text-slate-500 font-mono">February 2023 — Present</span>
+                      <span className="text-xs text-slate-500 font-mono">February 2023 — June 2026</span>
                     </div>
                   </div>
                 </div>
 
-                <div className="flex items-center gap-2 self-start sm:self-auto">
-                  <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
-                  <span className="text-xs font-mono text-green-400 bg-green-400/10 px-2 py-1 rounded-full">Active</span>
-                </div>
               </div>
 
               <p className="text-slate-400 text-sm leading-relaxed mb-6">
@@ -122,7 +162,7 @@ export default function Experience() {
           </TimelineItem>
 
           {/* Part-time creative */}
-          <TimelineItem delay={0.2}>
+          <TimelineItem delay={0.25}>
             <div className="glass rounded-2xl p-6 sm:p-8 border border-white/5 relative overflow-hidden">
               <div className="absolute top-0 left-0 w-1 h-full bg-gradient-to-b from-pink-500 to-violet-600 rounded-l-2xl" />
 
@@ -151,6 +191,42 @@ export default function Experience() {
                   <span
                     key={tag}
                     className="text-[11px] font-mono text-pink-400 bg-pink-500/10 border border-pink-500/20 px-2.5 py-1 rounded-full"
+                  >
+                    {tag}
+                  </span>
+                ))}
+              </div>
+            </div>
+          </TimelineItem>
+
+          <TimelineItem delay={0.35}>
+            <div className="glass rounded-2xl p-6 sm:p-8 border border-white/5 relative overflow-hidden">
+              <div className="absolute top-0 left-0 w-1 h-full bg-gradient-to-b from-amber-500 to-orange-600 rounded-l-2xl" />
+
+              <div className="flex items-start gap-4 mb-4">
+                <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-amber-500/20 to-orange-600/20 flex items-center justify-center flex-shrink-0">
+                  <Building2 size={22} className="text-amber-400" />
+                </div>
+                <div>
+                  <h3 className="text-lg font-bold text-white">E-Commerce Virtual Assistant</h3>
+                  <p className="text-amber-400 font-mono text-sm">Walmart Marketplace Support</p>
+                  <div className="flex items-center gap-1.5 mt-1.5">
+                    <Calendar size={12} className="text-slate-500" />
+                    <span className="text-xs text-slate-500 font-mono">2021 - 2022</span>
+                  </div>
+                </div>
+              </div>
+
+              <p className="text-slate-400 text-sm leading-relaxed mb-4">
+                Supported e-commerce clients with Walmart shop onboarding, product creation, listing optimization,
+                document management, and sales-focused store setup for profitable online selling streams.
+              </p>
+
+              <div className="flex flex-wrap gap-2">
+                {['Walmart Marketplace', 'Product Listings', 'Shop Onboarding', 'Document Management', 'E-Commerce'].map((tag) => (
+                  <span
+                    key={tag}
+                    className="text-[11px] font-mono text-amber-400 bg-amber-500/10 border border-amber-500/20 px-2.5 py-1 rounded-full"
                   >
                     {tag}
                   </span>

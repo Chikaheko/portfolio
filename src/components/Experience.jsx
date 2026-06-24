@@ -115,7 +115,7 @@ export default function Experience() {
                   </div>
                   <div>
                     <h3 className="text-lg font-bold text-white">Full-Stack Software Engineer</h3>
-                    <p className="text-cyan-400 font-mono text-sm">Project DocTrack — City Government of Davao</p>
+                    <p className="text-cyan-400 font-mono text-sm">City Internal Operations Unit — City Government of Davao</p>
                     <div className="flex items-center gap-1.5 mt-1.5">
                       <Calendar size={12} className="text-slate-500" />
                       <span className="text-xs text-slate-500 font-mono">February 2023 — June 2026</span>
